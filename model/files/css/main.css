@@ -1,0 +1,151 @@
+
+.font-class{
+	font-family: LatoWeb;
+}
+
+.navbar-brand{
+	-webkit-margin-start: 6px;
+    -webkit-padding-end: 12px;
+    flex: 1;
+    font-size: 123%;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+footer{
+    background:#d3d3d3;
+    padding:20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.yb-title{
+    font-family: LatoWebLight;
+}
+
+.lower-links{
+    background:#FFF;
+    padding:10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #e3e3e3;
+}
+
+.comment-bar{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    background: #FFF;
+}
+
+
+.lower-links ul{
+    display: table;
+    width: 100%;
+    list-style: none;
+}
+.lower-links ul li{
+    display: table-cell;
+    text-align: center;
+}
+.lower-links ul li a{
+    display: block;
+    color: #333;
+    font-size: 14px;
+}
+.lower-links ul li a i{
+    font-size: 180%;
+}
+
+
+.activeLowerLink{
+    font-weight: bold;
+}
+.post-action a{
+    color:#333;
+}
+.post-action i{
+    font-weight: 600;
+    font-size: 180%;
+}
+
+
+
+.toast{
+    text-align: center;
+    background: #555;
+    padding: 10px;
+    color: #F0F0F0;
+    display: none;
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    width:130px;
+    margin: 0 auto;
+    z-index:9999;
+    border-radius: 200px;
+}
+
+.cus-inp{
+
+	border:none;
+	border-bottom: 1px solid #e3e3e3;
+	border-radius: 0;
+	box-shadow: none;
+	font-size: 16px;
+
+}
+
+.cus-inp:focus{
+
+	outline:0;
+	box-shadow: none;
+	border-bottom: 1px solid cornflowerblue;
+
+}
+
+
+
+.yb-list ul{
+    display: table;
+    width: 100%;
+    list-style: none;
+}
+.yb-list ul li{
+    display: table-cell;
+    text-align: center;
+}
+.yb-list ul li a{
+    display: block;
+    color: #a3a3a3;
+}
+
+.yb-list ul li a:hover{
+    text-decoration: none;
+}
+.yb-list h4{
+    margin: 0;
+    color: #333;
+}
+
+
+.tag-div{
+    
+    /*position: fixed;
+    background: #FFF;*/
+    padding: 5px;
+    max-height: 150px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /*width: 100%;
+    left: 0;
+    border-right: 1px solid #a3a3a3;
+    border-left: 1px solid #a3a3a3;*/
+    
+
+}
